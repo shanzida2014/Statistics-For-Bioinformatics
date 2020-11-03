@@ -1,4 +1,6 @@
 # Statistics-For-Bioinformatics
+
+-- In my Biostatistics courses I did several mini projects on the statistical analysis of biological dataset by R.-- This file includes a couple of Microsoft word documents on those such as Hypothesis testing,Higher Order ANOVA,ANCOVA,  on H
 1.	The dataset Pima.tr contains data on 200 women of Pima Indian heritage living near Phoenix, Arizona.  All women were tested for diabetes according to World Health Organization criteria.  The dataset contains whether or not they met WHO criteria for diabetes (variable type=Yes for diabetes, No otherwise), their plasma glucose concentration (variable glu), as well as other variables.  Subset the data to create two separate datasets: one for women who met criteria for diabetes and another dataset for women who didn’t.  Perform the following one-sample t tests:
 a.	Does the mean blood glucose level in the women considered diabetic differ from the cutoff of 200 mg/dL that is indicative of diabetes?
  
