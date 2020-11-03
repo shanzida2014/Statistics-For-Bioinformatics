@@ -120,6 +120,7 @@ sample estimates:
 
 From the output, we can see that the difference between group no and group yes is -5.91 .P   value 0.001104 is less than the significant value 0.05 which  proved that thenunull hypothesis is rejected.
 
+## Paired t Test :
 
 ###### The dataset immer contains yields from an agricultural field trial in which six varieties of barley were grown in six locations in 1931 and 1932.A paired t test was performed to determine if the barley yield was the same for these two years.
 t.test(immer$Y1, immer$Y2, paired=TRUE)
