@@ -33,19 +33,21 @@ mean of x
 
 	One Sample t-test
 
-data:  diabetic.no$glu
-t = -11.6, df = 131, p-value = 1
-alternative hypothesis: true mean is greater than 140
-95 percent confidence interval:
- 109.2653      Inf
-sample estimates:
-mean of x 
- 113.1061 
+>data:  diabetic.no$glu
+>t = -11.6, df = 131, p-value = 1
+>alternative hypothesis: true mean is greater than 140
+>95 percent confidence interval:
+>109.2653      Inf
+>sample estimates:
+>mean of x 
+>113.1061 
 
 
 Summarization: From the output, we can see that the mean blood glucose level for the women considered not diabetic is 113.1061. Since, the p-value =1 is not less than the significance level of 0.05, we cannot reject the null hypothesis that the mean blood glucose level is equal to 140 ml.
 
-######  two-sample t tests were performed to determine if the following variables in Pima.tr are associated with meeting criteria for diabetes: age, diastolic blood pressure, body mass index, and triceps skin fold thickness.  For each of these variables, make a box plot to visualize the association between it and diabetes.
+## Two-sample t test
+
+###### two-sample t tests were performed to determine if the following variables in Pima.tr are associated with meeting criteria for diabetes: age, diastolic blood pressure, body mass index, and triceps skin fold thickness.  For each of these variables, make a box plot to visualize the association between it and diabetes.
 
 Boxplot (age ~ type, Pima.tr)
  
